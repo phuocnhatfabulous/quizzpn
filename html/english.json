@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "img": "apple.jpg",
+        "word": "apple",
+        "topic": "fruit"
+    },
+    {
+        "id": 2,
+        "img": "banana.jpeg",
+        "word": "banana",
+        "topic": "fruit"
+    }
+]

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>English Quiz</title>
+    <link rel="icon" type="image/png" href="../imgs/icon2.png">
+    <link rel="stylesheet" href="../css/english.css">
+</head>
+
+<body>
+    <main class="container">
+        <a href="menubar.html" class="logo">
+            🚀 English Quiz
+        </a>
+
+        <div id="quiz" class="card">
+            <div class="topic-menu">
+                <button class="topic-btn active" data-topic="all">All</button>
+                <button class="topic-btn" data-topic="school">School</button>
+                <button class="topic-btn" data-topic="fruit">Fruit</button>
+                <button class="topic-btn" data-topic="days">Days</button>
+                <button class="topic-btn" data-topic="time">Time</button>
+                <button class="topic-btn" data-topic="numbers">Numbers</button>
+                <button class="topic-btn" data-topic="color">Color</button>
+                <button class="topic-btn" data-topic="family">Family</button>
+                <button class="topic-btn" data-topic="weather">Weather</button>
+                <button class="topic-btn" data-topic="technical">Technical</button>
+            </div>
+            <div id="flip-card" class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="quiz-img" src="../imgs/placeholder.png" alt="quiz image">
+                    </div>
+                    <div class="flip-card-back">
+                        <div id="answer-text" class="answer-text">
+                            <div id="answer-word" class="answer-word"></div>
+                            <div id="answer-kanji" class="answer-kanji"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <input id="answer" type="text" placeholder="Type the word..." autocomplete="off">
+                <button id="submit">Enter</button>
+            </div>
+            <div id="feedback" class="feedback"></div>
+            <div class="progress" id="progress"></div>
+            <div class="nav">
+                <a href="admin.html" class="btn">Manage words</a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        Created by <strong>Phuoc Nhat</strong> — badboiz
+    </footer>
+    <script src="../js/data_english.js"></script>
+    <script src="../js/logic.js"></script>
+    <script src="../js/english.js"></script>
+</body>
+
+</html>
