@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Manage Words</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Manage Words</h1>
+
+    <section class="card">
+      <h2>Add / Edit Word</h2>
+      <form id="word-form">
+        <input id="id" type="hidden">
+        <label>Image file name (in imgs/): <input id="img" required placeholder="example.png"></label>
+        <label>Word: <input id="word" required placeholder="apple"></label>
+        <div class="row">
+          <button type="submit">Save</button>
+          <button id="clear" type="button">Clear</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Words</h2>
+      <div class="row">
+        <button id="import">Import JSON</button>
+        <button id="export">Export JSON</button>
+        <input id="file-input" type="file" accept="application/json" style="display:none">
+      </div>
+      <ul id="list" class="list"></ul>
+      <div id="pagination" class="pagination"></div>
+    </section>
+
+    <div class="nav">
+      <a href="index.html">Back to Quiz</a>
+    </div>
+  </main>
+  <script src="../js/data.js"></script>
+  <script src="../js/admin.js"></script>
+</body>
+</html>

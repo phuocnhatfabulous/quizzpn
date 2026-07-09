@@ -1,0 +1,841 @@
+[
+  {
+    "id": 1,
+    "img": "apple.jpg",
+    "kanji": "",
+    "word": "りんご",
+    "topic": "fruit"
+  },
+  {
+    "id": 2,
+    "img": "banana.jpeg",
+    "kanji": "",
+    "word": "バナナ",
+    "topic": "fruit"
+  },
+  {
+    "id": 3,
+    "img": "orange.webp",
+    "kanji": "",
+    "word": "オレンジ",
+    "topic": "fruit"
+  },
+  {
+    "id": 4,
+    "img": "school.png",
+    "kanji": "学校",
+    "word": "がっこう",
+    "topic": "school"
+  },
+  {
+    "id": 5,
+    "img": "teacher.png",
+    "kanji": "先生",
+    "word": "せんせい",
+    "topic": "school"
+  },
+  {
+    "id": 6,
+    "img": "student.png",
+    "kanji": "学生",
+    "word": "がくせい",
+    "topic": "school"
+  },
+  {
+    "id": 7,
+    "img": "classroom.png",
+    "kanji": "教室",
+    "word": "きょうしつ",
+    "topic": "school"
+  },
+  {
+    "id": 8,
+    "img": "book.png",
+    "kanji": "本",
+    "word": "ほん",
+    "topic": "school"
+  },
+  {
+    "id": 9,
+    "img": "notebook.png",
+    "kanji": "",
+    "word": "ノート",
+    "topic": "school"
+  },
+  {
+    "id": 10,
+    "img": "pencil.png",
+    "kanji": "鉛筆",
+    "word": "えんぴつ",
+    "topic": "school"
+  },
+  {
+    "id": 11,
+    "img": "pen.png",
+    "kanji": "",
+    "word": "ペン",
+    "topic": "school"
+  },
+  {
+    "id": 12,
+    "img": "eraser.png",
+    "kanji": "消しゴム",
+    "word": "けしごむ",
+    "topic": "school"
+  },
+  {
+    "id": 13,
+    "img": "ruler.png",
+    "kanji": "定規",
+    "word": "じょうぎ",
+    "topic": "school"
+  },
+  {
+    "id": 14,
+    "img": "desk.png",
+    "kanji": "机",
+    "word": "つくえ",
+    "topic": "school"
+  },
+  {
+    "id": 15,
+    "img": "chair.png",
+    "kanji": "",
+    "word": "いす",
+    "topic": "school"
+  },
+  {
+    "id": 16,
+    "img": "backpack.png",
+    "kanji": "",
+    "word": "リュックサック",
+    "topic": "school"
+  },
+  {
+    "id": 17,
+    "img": "computer.png",
+    "kanji": "",
+    "word": "コンピューター",
+    "topic": "school"
+  },
+  {
+    "id": 18,
+    "img": "board.png",
+    "kanji": "黒板",
+    "word": "こくばん",
+    "topic": "school"
+  },
+  {
+    "id": 19,
+    "img": "library.png",
+    "kanji": "図書館",
+    "word": "としょかん",
+    "topic": "school"
+  },
+  {
+    "id": 20,
+    "img": "homework.png",
+    "kanjii": "宿題",
+    "word": "しゅくだい",
+    "topic": "school"
+  },
+  {
+    "id": 21,
+    "img": "exam.png",
+    "kanji": "試験",
+    "word": "しけん",
+    "topic": "school"
+  },
+  {
+    "id": 22,
+    "img": "lesson.png",
+    "kanji": "授業",
+    "word": "じゅぎょう",
+    "topic": "school"
+  },
+  {
+    "id": 23,
+    "img": "school_bus.png",
+    "kanji": "",
+    "word": "スクールバス",
+    "topic": "school"
+  },
+  {
+    "id": 24,
+    "img": "monday.png",
+    "kanji": "月曜日",
+    "word": "げつようび",
+    "topic": "days"
+  },
+  {
+    "id": 25,
+    "img": "tuesday.png",
+    "kanji": "火曜日",
+    "word": "かようび",
+    "topic": "days"
+  },
+  {
+    "id": 26,
+    "img": "wednesday.png",
+    "kanji": "水曜日",
+    "word": "すいようび",
+    "topic": "days"
+  },
+  {
+    "id": 27,
+    "img": "thursday.png",
+    "kanji": "木曜日",
+    "word": "もくようび",
+    "topic": "days"
+  },
+  {
+    "id": 28,
+    "img": "friday.png",
+    "kanji": "金曜日",
+    "word": "きんようび",
+    "topic": "days"
+  },
+  {
+    "id": 29,
+    "img": "saturday.png",
+    "kanji": "土曜日",
+    "word": "どようび",
+    "topic": "days"
+  },
+  {
+    "id": 30,
+    "img": "sunday.png",
+    "kanji": "日曜日",
+    "word": "にちようび",
+    "topic": "days"
+  },
+  {
+    "id": 31,
+    "img": "january.png",
+    "kanji": "一月",
+    "word": "いちがつ",
+    "topic": "time"
+  },
+  {
+    "id": 32,
+    "img": "february.png",
+    "kanji": "二月",
+    "word": "にがつ",
+    "topic": "time"
+  },
+  {
+    "id": 33,
+    "img": "march.png",
+    "kanji": "三月",
+    "word": "さんがつ",
+    "topic": "time"
+  },
+  {
+    "id": 34,
+    "img": "april.png",
+    "kanji": "四月",
+    "word": "しがつ",
+    "topic": "time"
+  },
+  {
+    "id": 35,
+    "img": "may.png",
+    "kanji": "五月",
+    "word": "ごがつ",
+    "topic": "time"
+  },
+  {
+    "id": 36,
+    "img": "june.png",
+    "kanji": "六月",
+    "word": "ろくがつ",
+    "topic": "time"
+  },
+  {
+    "id": 37,
+    "img": "july.png",
+    "kanji": "七月",
+    "word": "しちがつ",
+    "topic": "time"
+  },
+  {
+    "id": 38,
+    "img": "august.png",
+    "kanji": "八月",
+    "word": "はちがつ",
+    "topic": "time"
+  },
+  {
+    "id": 39,
+    "img": "september.png",
+    "kanji": "九月",
+    "word": "くがつ",
+    "topic": "time"
+  },
+  {
+    "id": 40,
+    "img": "october.png",
+    "kanji": "十月",
+    "word": "じゅうがつ",
+    "topic": "time"
+  },
+  {
+    "id": 41,
+    "img": "november.png",
+    "kanji": "十一月",
+    "word": "じゅういちがつ",
+    "topic": "time"
+  },
+  {
+    "id": 42,
+    "img": "december.png",
+    "kanji": "十二月",
+    "word": "じゅうにがつ",
+    "topic": "time"
+  },
+  {
+    "id": 43,
+    "img": "year_2020.png",
+    "kanji": "二千二十年",
+    "word": "にせんにじゅうねん",
+    "topic": "numbers"
+  },
+  {
+    "id": 44,
+    "img": "year_2021.png",
+    "kanji": "二千二十一年",
+    "word": "にせんにじゅういちねん",
+    "topic": "numbers"
+  },
+  {
+    "id": 45,
+    "img": "year_2022.png",
+    "kanjii": "二千二十二年",
+    "word": "にせんにじゅうにねん",
+    "topic": "numbers"
+  },
+  {
+    "id": 46,
+    "img": "year_2023.png",
+    "kanjii": "二千二十三年",
+    "word": "にせんにじゅうさんねん",
+    "topic": "numbers"
+  },
+  {
+    "id": 47,
+    "img": "year_2024.png",
+    "kanjii": "二千二十四年",
+    "word": "にせんにじゅうよねん",
+    "topic": "numbers"
+  },
+  {
+    "id": 48,
+    "img": "year_2025.png",
+    "kanjii": "二千二十五年",
+    "word": "にせんにじゅうごねん",
+    "topic": "numbers"
+  },
+  {
+    "id": 49,
+    "img": "year_2026.png",
+    "kanji": "二千二十六年",
+    "word": "にせんにじゅうろくねん",
+    "topic": "numbers"
+  },
+  {
+    "id": 50,
+    "img": "year_2027.png",
+    "kanji": "二千二十七年",
+    "word": "にせんにじゅうしちねん",
+    "topic": "numbers"
+  },
+  {
+    "id": 51,
+    "img": "number_1.png",
+    "kanji": "一",
+    "word": "いち",
+    "topic": "numbers"
+  },
+  {
+    "id": 52,
+    "img": "number_2.png",
+    "kanji": "二",
+    "word": "に",
+    "topic": "numbers"
+  },
+  {
+    "id": 53,
+    "img": "number_3.png",
+    "kanji": "三",
+    "word": "さん",
+    "topic": "numbers"
+  },
+  {
+    "id": 54,
+    "img": "number_4.png",
+    "kanji": "四",
+    "word": "よん",
+    "topic": "numbers"
+  },
+  {
+    "id": 55,
+    "img": "number_5.png",
+    "kanji": "五",
+    "word": "ご",
+    "topic": "numbers"
+  },
+  {
+    "id": 56,
+    "img": "number_6.png",
+    "kanji": "六",
+    "word": "ろく",
+    "topic": "numbers"
+  },
+  {
+    "id": 57,
+    "img": "number_7.png",
+    "kanji": "七",
+    "word": "なな",
+    "topic": "numbers"
+  },
+  {
+    "id": 58,
+    "img": "number_8.png",
+    "kanji": "八",
+    "word": "はち",
+    "topic": "numbers"
+  },
+  {
+    "id": 59,
+    "img": "number_9.png",
+    "kanji": "九",
+    "word": "きゅう",
+    "topic": "numbers"
+  },
+  {
+    "id": 60,
+    "img": "number_10.png",
+    "kanji": "十",
+    "word": "じゅう",
+    "topic": "numbers"
+  },
+  {
+    "id": 61,
+    "img": "number_11.png",
+    "kanji": "十一",
+    "word": "じゅういち",
+    "topic": "numbers"
+  },
+  {
+    "id": 62,
+    "img": "number_12.png",
+    "kanji": "十二",
+    "word": "じゅうに",
+    "topic": "numbers"
+  },
+  {
+    "id": 63,
+    "img": "number_13.png",
+    "kanji": "十三",
+    "word": "じゅうさん",
+    "topic": "numbers"
+  },
+  {
+    "id": 64,
+    "img": "number_14.png",
+    "kanji": "十四",
+    "word": "じゅうよん",
+    "topic": "numbers"
+  },
+  {
+    "id": 65,
+    "img": "number_15.png",
+    "kanji": "十五",
+    "word": "じゅうご",
+    "topic": "numbers"
+  },
+  {
+    "id": 66,
+    "img": "number_16.png",
+    "kanji": "十六",
+    "word": "じゅうろく",
+    "topic": "numbers"
+  },
+  {
+    "id": 67,
+    "img": "number_17.png",
+    "kanji": "十七",
+    "word": "じゅうしち",
+    "topic": "numbers"
+  },
+  {
+    "id": 68,
+    "img": "number_18.png",
+    "kanji": "十八",
+    "word": "じゅうはち",
+    "topic": "numbers"
+  },
+  {
+    "id": 69,
+    "img": "number_19.png",
+    "kanji": "十九",
+    "word": "じゅうきゅう",
+    "topic": "numbers"
+  },
+  {
+    "id": 70,
+    "img": "number_20.png",
+    "kanji": "二十",
+    "word": "にじゅう",
+    "topic": "numbers"
+  },
+  {
+    "id": 71,
+    "img": "red.png",
+    "kanji": "赤",
+    "word": "あか",
+    "topic": "color"
+  },
+  {
+    "id": 72,
+    "img": "blue.png",
+    "kanji": "青",
+    "word": "あお",
+    "topic": "color"
+  },
+  {
+    "id": 73,
+    "img": "green.png",
+    "kanji": "緑",
+    "word": "みどり",
+    "topic": "color"
+  },
+  {
+    "id": 74,
+    "img": "yellow.png",
+    "kanji": "黄色",
+    "word": "きいろ",
+    "topic": "color"
+  },
+  {
+    "id": 75,
+    "img": "black.png",
+    "kanji": "黒",
+    "word": "くろ",
+    "topic": "color"
+  },
+  {
+    "id": 76,
+    "img": "white.png",
+    "kanji": "白",
+    "word": "しろ",
+    "topic": "color"
+  },
+  {
+    "id": 77,
+    "img": "pink.png",
+    "word": "ピンク",
+    "topic": "color"
+  },
+  {
+    "id": 78,
+    "img": "purple.png",
+    "kanji": "紫",
+    "word": "むらさき",
+    "topic": "color"
+  },
+  {
+    "id": 79,
+    "img": "brown.png",
+    "kanji": "茶色",
+    "word": "ちゃいろ",
+    "topic": "color"
+  },
+  {
+    "id": 80,
+    "img": "orange_color.png",
+    "kanji": "",
+    "word": "オレンジ",
+    "topic": "color"
+  },
+  {
+    "id": 81,
+    "img": "morning.png",
+    "kanji": "朝",
+    "word": "あさ",
+    "topic": "time"
+  },
+  {
+    "id": 82,
+    "img": "afternoon.png",
+    "kanji": "午後",
+    "word": "ごご",
+    "topic": "time"
+  },
+  {
+    "id": 83,
+    "img": "evening.png",
+    "kanji": "夕方",
+    "word": "ゆうがた",
+    "topic": "time"
+  },
+  {
+    "id": 84,
+    "img": "night.png",
+    "kanji": "夜",
+    "word": "よる",
+    "topic": "time"
+  },
+  {
+    "id": 85,
+    "img": "today.png",
+    "kanji": "今日",
+    "word": "きょう",
+    "topic": "time"
+  },
+  {
+    "id": 86,
+    "img": "tomorrow.png",
+    "kanji": "明日",
+    "word": "あした",
+    "topic": "time"
+  },
+  {
+    "id": 87,
+    "img": "yesterday.png",
+    "kanji": "昨日",
+    "word": "きのう",
+    "topic": "time"
+  },
+  {
+    "id": 88,
+    "img": "week.png",
+    "kanji": "週",
+    "word": "しゅう",
+    "topic": "time"
+  },
+  {
+    "id": 89,
+    "img": "month.png",
+    "kanji": "月",
+    "word": "つき",
+    "topic": "time"
+  },
+  {
+    "id": 90,
+    "img": "year.png",
+    "kanji": "年",
+    "word": "とし",
+    "topic": "time"
+  },
+  {
+    "id": 91,
+    "img": "spring.png",
+    "kanji": "春",
+    "word": "はる",
+    "topic": "time"
+  },
+  {
+    "id": 92,
+    "img": "summer.png",
+    "kanji": "夏",
+    "word": "なつ",
+    "topic": "time"
+  },
+  {
+    "id": 93,
+    "img": "autumn.png",
+    "kanji": "秋",
+    "word": "あき",
+    "topic": "time"
+  },
+  {
+    "id": 94,
+    "img": "winter.png",
+    "kanji": "冬",
+    "word": "ふゆ",
+    "topic": "time"
+  },
+  {
+    "id": 95,
+    "img": "calendar.png",
+    "kanji": "",
+    "word": "カレンダー",
+    "topic": "time"
+  },
+  {
+    "id": 96,
+    "img": "clock.png",
+    "kanji": "時計",
+    "word": "とけい",
+    "topic": "time"
+  },
+  {
+    "id": 97,
+    "img": "hour.png",
+    "kanji": "時間",
+    "word": "じかん",
+    "topic": "time"
+  },
+  {
+    "id": 98,
+    "img": "minute.png",
+    "kanji": "分",
+    "word": "ふん",
+    "topic": "time"
+  },
+  {
+    "id": 99,
+    "img": "second.png",
+    "kanji": "秒",
+    "word": "びょう",
+    "topic": "time"
+  },
+  {
+    "id": 100,
+    "img": "date.png",
+    "kanji": "日付",
+    "word": "ひづけ",
+    "topic": "time"
+  },
+  {
+    "id": 101,
+    "img": "fruit.jpg",
+    "kanji": "果物",
+    "word": "くだもの",
+    "topic": "fruit"
+  },
+  {
+    "id": 102,
+    "img": "apple.png",
+    "kanji": "",
+    "word": "りんご",
+    "topic": "fruit"
+  },
+  {
+    "id": 103,
+    "img": "mikan.jpg",
+    "kanji": "",
+    "word": "みかん",
+    "topic": "fruit"
+  },
+  {
+    "id": 105,
+    "img": "strawberry.jpg",
+    "kanji": "",
+    "word": "いちご",
+    "topic": "fruit"
+  },
+  {
+    "id": 106,
+    "img": "grape.jpg",
+    "kanji": "",
+    "word": "ぶどう",
+    "topic": "fruit"
+  },
+  {
+    "id": 107,
+    "img": "peach.jpg",
+    "kanji": "",
+    "word": "もも",
+    "topic": "fruit"
+  },
+  {
+    "id": 108,
+    "img": "pear.jpg",
+    "kanji": "",
+    "word": "なし",
+    "topic": "fruit"
+  },
+  {
+    "id": 109,
+    "img": "persimmon.jpg",
+    "kanji": "柿",
+    "word": "かき",
+    "topic": "fruit"
+  },
+  {
+    "id": 110,
+    "img": "cherry.jpg",
+    "kanji": "",
+    "word": "さくらんぼ",
+    "topic": "fruit"
+  },
+  {
+    "id": 111,
+    "img": "watermelon.jpg",
+    "kanji": "",
+    "word": "スイカ",
+    "topic": "fruit"
+  },
+  {
+    "id": 112,
+    "img": "melon.jpg",
+    "kanji": "",
+    "word": "メロン",
+    "topic": "fruit"
+  },
+  {
+    "id": 113,
+    "img": "pineapple.jpg",
+    "kanji": "",
+    "word": "パイナップル",
+    "topic": "fruit"
+  },
+  {
+    "id": 114,
+    "img": "kiwi.jpg",
+    "kanji": "",
+    "word": "キウイ",
+    "topic": "fruit"
+  },
+  {
+    "id": 115,
+    "img": "lemon.jpg",
+    "kanji": "",
+    "word": "レモン",
+    "topic": "fruit"
+  },
+  {
+    "id": 116,
+    "img": "orange.jpg",
+    "kanji": "",
+    "word": "オレンジ",
+    "topic": "fruit"
+  },
+  {
+    "id": 117,
+    "img": "yuzu.jpg",
+    "kanji": "",
+    "word": "ゆず",
+    "topic": "fruit"
+  },
+  {
+    "id": 118,
+    "img": "kabosu.jpg",
+    "kanji": "",
+    "word": "かぼす",
+    "topic": "fruit"
+  },
+  {
+    "id": 119,
+    "img": "mango.jpg",
+    "kanji": "",
+    "word": "マンゴー",
+    "topic": "fruit"
+  },
+  {
+    "id": 120,
+    "img": "loquat.jpg",
+    "kanji": "",
+    "word": "びわ",
+    "topic": "fruit"
+  },
+  {
+    "id": 121,
+    "img": "loquat.jpg",
+    "kanji": "",
+    "word": "びわ",
+    "topic": "fruit"
+  }
+]
