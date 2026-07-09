@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    background: #f8fafc;
+    color: #111827;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.75);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(229, 231, 235, 0.6);
+}
+
+.navbar {
+
+    max-width: 1400px;
+    height: 75px;
+
+    margin: auto;
+    padding: 0 28px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-menu {
+
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    gap: 32px;
+}
+
+.nav-menu>li {
+
+    position: relative;
+}
+
+.nav-menu a {
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    text-decoration: none;
+
+    color: #111827;
+
+    font-weight: 500;
+
+    transition: .25s;
+}
+
+.nav-menu a:hover {
+
+    color: #2563eb;
+}
+
+/* ========== Dropdown (Language) ========== */
+.dropdown {
+    position: relative
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    min-width: 160px;
+    background: rgba(255, 255, 255, 0.98);
+    border: 1px solid rgba(229, 231, 235, 0.7);
+    border-radius: 10px;
+    padding: 8px 6px;
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    transition: transform .16s ease, opacity .16s ease, visibility .16s;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown.open .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-menu li {
+    list-style: none
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 12px;
+    color: #0f172a;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.dropdown-menu a:hover {
+    background: rgba(2, 6, 23, 0.04);
+    color: #1e40af
+}
+
+.right input {
+
+    width: 220px;
+
+    padding: 10px 14px;
+
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+
+    outline: none;
+}
+
+.right input:focus {
+
+    border-color: #2563eb;
+}
+
+.right button {
+
+    border: none;
+
+    background: #2563eb;
+    color: #fff;
+
+    padding: 11px 18px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: .25s;
+}
+
+.right button:hover {
+
+    background: #1d4ed8;
+}
+
+/* ================================================= */
+/*                 MEGA MENU (updated)               */
+/* ================================================= */
+
+.mega {
+    position: static;
+}
+
+.mega-menu {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%) translateY(12px);
+    width: min(1200px, 94vw);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform .22s ease, opacity .22s ease, visibility .22s;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.mega.open .mega-menu,
+.mega:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+}
+
+
+/* ================= HEADER ================= */
+
+.mega-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.mega-header h3 {
+
+    font-size: 24px;
+}
+
+.mega-header p {
+
+    margin-top: 5px;
+
+    color: #6b7280;
+}
+
+.view-all {
+
+    color: #2563eb;
+    font-weight: 600;
+}
+
+/* ================= GRID ================= */
+
+.columns {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+
+    gap: 12px 20px;
+}
+
+.col {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.col li {
+    margin-bottom: 10px;
+}
+
+.col a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #0f172a;
+    padding: 8px 10px;
+    border-radius: 8px;
+    transition: background .15s, color .15s, transform .12s;
+}
+
+.col a:hover {
+    background: rgba(37, 99, 235, 0.06);
+    color: #1e40af;
+    transform: translateX(4px);
+}
+
+.col a span {
+    display: block;
+    color: #6b7280;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+/* ================= CARD ================= */
+
+.col .icon {
+    display: none
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:1024px) {
+
+    .navbar {
+
+        padding: 0 20px;
+    }
+
+    .right input {
+
+        display: none;
+    }
+
+    .nav-menu {
+
+        gap: 20px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .mega-menu {
+
+        width: 95%;
+    }
+
+    .mega-header {
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .columns {
+        grid-template-columns: repeat(2, minmax(160px, 1fr));
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .columns {
+
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+
+        height: 70px;
+    }
+
+    .right {
+
+        display: none;
+    }
+
+}

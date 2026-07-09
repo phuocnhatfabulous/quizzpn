@@ -206,6 +206,7 @@ input[type=file] {
     background: #FF8000;
     color: white;
 }
+
 .btn {
     display: inline-block;
     padding: 10px 10px;
@@ -220,6 +221,7 @@ input[type=file] {
 .btn:hover {
     background-color: #45a049;
 }
+
 .footer {
     margin-top: 30px;
     padding: 15px;
@@ -231,6 +233,19 @@ input[type=file] {
 .footer strong {
     color: #333;
 }
+
 .nav {
     overflow: hidden;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    margin: 0 0 12px;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
