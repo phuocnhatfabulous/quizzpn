@@ -424,12 +424,12 @@ header {
 }
 
 .card-body {
-    padding: 12px
+    padding: 13px
 }
 
 .card-body h4 {
     margin: 0 0 6px;
-    font-size: 16px
+    font-size: 11px
 }
 
 .card-body .channel {
@@ -464,6 +464,15 @@ header {
 .playlist-card:hover .watch {
     background: var(--accent);
     color: #fff
+}
+.playlist-card h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* Responsive columns */
